@@ -1,0 +1,169 @@
+.main{
+    width: 100%;
+    height: 100vh;
+}
+.detalis{
+    width: 100%;
+    height: 500px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.up{
+    width: 65%;
+    background-color: aqua;
+    margin-left: 16%;
+    height: 250px;
+    flex-direction: row;
+    display: flex;
+}
+.component_1{
+    color: black;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.logo_namescoin{
+    display: flex;
+    flex-direction: row;
+}
+.logo_namescoin h3{
+    padding-left: 15px;
+}
+.imagelogo{
+    min-height: 49% !important;
+}
+.smlname{
+    display: flex;
+margin-top: 1.3%;
+position: absolute;
+margin-left: 8%;
+width: 50px;
+height: 35px;
+background-color: antiquewhite;
+border-radius: 5px;
+font-size: 12px;
+font-weight: 600;
+line-height: 18px;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+.main_datails{
+    color: aquamarine;
+    display: flex;
+margin-top: 5%;
+position: absolute;
+}
+.detalis_coins{
+    color: black;
+    list-style-type: none;
+    height: 25px;
+    width: auto;
+    background-color: rebeccapurple;
+    margin-left: 6px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 2px;
+}
+.pricemain{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+
+.price{
+    display: flex;
+    flex-direction: row;
+}
+.price div{
+    width: 79px;
+height: 30px;
+background-color: red;
+margin-left: 10px;
+text-align: center;
+}
+.price24h{
+    display: flex;
+flex-direction: row;
+}
+.labels{
+    padding-right: 20px;
+    margin-left: 20px;
+}
+.progresbar_body{
+    width: 130px;
+    background-color: aliceblue;
+    height: 9px;
+    border-radius: 26px;
+    margin-top: 2%;
+}
+.progresbar{
+    width: 50%;
+background-color: red;
+height: 9px;
+border-radius: 26px;
+}
+.dow{
+    width: 65%;
+background-color: aqua;
+margin-left: 16%;
+height: 250px;
+flex-direction: row;
+display: flex;
+}
+.component_dow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.component_dow_block{
+    margin-left: 63px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.menu_datils{
+    color: black;
+    width: auto;
+    height: 26px;
+    background-color: #eff2f5;
+    margin-left: 9px;
+    text-align: center;
+    display: flex;
+}
+.btn{
+    border: medium none;
+    outline: currentcolor none medium;
+    border-radius: 8px;
+    padding: 5px 8px;
+    margin: 0px 4px 4px 0px;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 18px;
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    color: black;
+    background-color: #eff2f5;
+
+}
+.btndrop{
+    color: black !important;
+    font-size: 12px !important;
+}
+.icoindrop{
+    font-size: 12px !important;
+}
+.block{
+    color: black;
+    width: 138px;
+    border-right: 1px solid #eff2f5;
+    text-align: center;
+}

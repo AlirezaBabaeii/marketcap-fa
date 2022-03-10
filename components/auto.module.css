@@ -1,0 +1,61 @@
+.SearchLabel {
+  color: black;
+  font-size: 1.5rem;
+}
+.SearchBox {
+  width: 100px;
+  height: 50px;
+  background-color: antiquewhite;
+  display: flex;
+  border: none;
+  outline: none;
+  font-size: large;
+  padding: 10px;
+  font-weight: Bold;
+  border-radius: 10px;
+}
+
+.auto {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  z-index: 1;
+  padding-top: 20px;
+}
+
+.Display {
+  font-weight: bold;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+}
+
+.DivStyle {
+  width: 100px;
+  height: 40px;
+  background-color: antiquewhite;
+  display: flex;
+  margin-top: -4px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.modal{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-right: 6%;
+position: absolute;
+margin-top: 16%;
+width: 300px;
+height: 200px;
+background-color: antiquewhite;
+flex-wrap: wrap;
+}
